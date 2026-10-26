@@ -1,0 +1,70 @@
+# --- Build / saída ---
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+[Pp]ublish/
+[Aa]rtifacts/
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.lib
+*.ilk
+*.msix
+*.msi
+*.nupkg
+*.zip
+
+# --- Visual Studio / VS Code / Rider ---
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.rsuser
+*.DotSettings.user
+launchSettings.json
+.claude/
+
+# --- Testes / cobertura / logs ---
+TestResults/
+*.trx
+*.coverage
+*.log
+
+# --- NuGet ---
+*.nuget.dgspec.json
+project.assets.json
+project.nuget.cache
+packages/
+
+# --- Segredos e dados pessoais (nunca versionar) ---
+.env
+.env.*
+*.pfx
+*.p12
+*.snk
+*.key
+*.pem
+*.crt
+*.cer
+secrets.json
+appsettings.*.local.json
+*.publishsettings
+credentials*
+*.token
+
+# --- Certificados de assinatura / dumps ---
+*.dmp
+*.bak
+*.tmp
+
+# --- Sistema operacional ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
